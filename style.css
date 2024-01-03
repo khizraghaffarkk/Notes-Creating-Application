@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box{
+    /* width: 100%;
+    min-height: 100vh; */
+    height: 100vh;
+    padding-top: 4%;
+    padding-left: 10%;
+    color: #fff;
+    background: linear-gradient(135deg, #f37485,#8a6868);
+}
+.box h1{
+    display: flex;
+    align-items: center;
+}
+.box h1 img{
+    width: 60px;
+    margin-right: 10px;
+}
+.box button img{
+    width: 30px;
+    margin-right: 16px;
+}
+.box button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: linear-gradient(#4a3fe9, #52729b);
+}
+
+.pinput-box{
+    border: 0;
+    width: 100%;
+    width: 500px;
+    min-height: 150px;
+    position: relative;
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 16px;
+    padding: 20px;
+}
+.pinput-box img{
+    width: 28px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
